@@ -38,6 +38,6 @@ spec:
     targetPort: 8000
     protocol: TCP
     name: http
-    nodePort: 30121
+    nodePort: 30103
   selector:
     app: heeaws-ops-suite-api
