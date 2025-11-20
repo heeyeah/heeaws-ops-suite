@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: heeaws-ops-suite:latest
+        image: dockerhub/heeaws-ops-suite:1.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8000
